@@ -1,14 +1,8 @@
 div {
     background-color: aqua;
-}
-
-#header {
-    font-size: 2rem;
-}
-.subtitle {
-    color: blue;
-}
-
-#text p {
-    background-color: blueviolet;
+    color: white;
+    padding: 50px;
+    border-style: solid;
+    border-color: red;
+    border-width: 20px;
 }

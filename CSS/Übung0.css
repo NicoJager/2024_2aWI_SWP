@@ -1,0 +1,23 @@
+.head {
+    background-color: yellow;
+    height: 100px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 20px ;
+    background-color: aqua;
+    height: 300px;
+    width: 400px;
+    padding-top: 0px; 
+    padding-left: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+.text h2 {
+    margin-top: 20px; 
+}
