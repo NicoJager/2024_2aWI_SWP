@@ -1,4 +1,5 @@
-.box {
+.bluebox {
+	position: relative;
 	margin-top: 40px;
 	margin-left: 40px;
     height: 400px;
@@ -9,6 +10,37 @@
     border-width: 1px;
 }
 
+.greenbox{
+	background-color: greenyellow;
+	width: 40px;
+    height: 40px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+	position: absolute;
+
+}
+
+.blackbox {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	background-color: black;
+	height: 40px;
+	width: 40px;
+}
+
+.invisiblebox {
+	width: 80%;
+	height: 100px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	background-color: white;
+}
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
