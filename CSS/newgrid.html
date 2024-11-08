@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+.box {
+    background-color: red;
+    padding: 5px;
+    height: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1px;
+    row-gap: 1px;
+
+}
+
+.item1 {
+    grid-column-start: span 3;
+}
+
+.item2 {
+    grid-column-start: span 2;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="box item1">Eins</div>    
+<div class="box item2">Zwei</div>    
+<div class="box item3">Drei</div>    
+<div class="box item4">Vier</div>    
+<div class="box item5">Fünf Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quos totam cum nesciunt velit earum. Voluptates, deleniti ex eveniet natus omnis sit error porro aliquid.</div>    
+
+</div>
+</body>
+</html>
