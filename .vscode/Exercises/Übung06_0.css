@@ -36,6 +36,9 @@
     bottom: 0;
     right: 0;
     position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .purplebox {
@@ -45,6 +48,9 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .greenbox {
