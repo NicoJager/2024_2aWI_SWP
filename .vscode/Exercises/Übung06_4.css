@@ -1,0 +1,53 @@
+
+.head {
+    background-color: cyan;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.yellowbox {
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+
+.purplebox {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.box {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+.innerbox{
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    margin: 10px;    
+}
+
+
