@@ -1,71 +1,24 @@
-.bluebox {
-	position: relative;
-	margin-top: 40px;
-	margin-left: 40px;
-    height: 400px;
-    width: 200px;
-    background-color: aqua;
-    border-style:solid ;
-    border-color: black;
-    border-width: 1px;
+.box {
+    background-color: red;
+    padding: 5px;
+    height: 100px;
 }
 
-.greenbox1{
-	background-color: greenyellow;
-	width: 40px;
-    height: 40px;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-	position: absolute;
+.container {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1px;
+    row-gap: 1px;
 
 }
 
-.blackbox {
-	position: absolute;
-	left: 20px;
-	top: 20px;
-	background-color: black;
-	height: 40px;
-	width: 40px;
+.item1 {
+    grid-column-start: span 1;
 }
 
-.invisiblebox {
-	position: relative
-	width: 95%;
-	height: 100px;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px;
-	background-color: white;
-	margin-top: 50px;
-	
-}
-
-
-.greenbox {
-	position: relative;
-	height: 20px;
-	width: 40px;
-	background-color: greenyellow;
-	border: solid;
-	border-width: 1px;
-	border-color: black;
-	display: flex;
-	
-}
-
-.allgb {
-	height: 100px;
-	position: relative;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-
-	
+.item2 {
+    grid-column-start: span 1;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
