@@ -10,7 +10,7 @@
     border-width: 1px;
 }
 
-.greenbox{
+.greenbox1{
 	background-color: greenyellow;
 	width: 40px;
     height: 40px;
@@ -34,6 +34,7 @@
 }
 
 .invisiblebox {
+	position: relative;
 	width: 80%;
 	height: 100px;
 	border-style: solid;
@@ -44,6 +45,28 @@
 	
 }
 
+
+.greenbox {
+	position: relative;
+	height: 50px;
+	width: 150px;
+	background-color: greenyellow;
+	border: solid;
+	border-width: 1px;
+	border-color: black;
+	display: flex;
+	
+}
+
+.allgb {
+	height: 100px;
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
