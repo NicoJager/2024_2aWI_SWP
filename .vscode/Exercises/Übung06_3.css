@@ -24,3 +24,31 @@
     border: solid;
 
 }
+
+
+.boxes {
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;    
+    flex-direction: row;
+}
+
+.greenbox {
+    height: 300px;
+    width: 200px;
+    background-color: lightgreen;
+    border-width: 1px;
+	border-color: black;
+    border: solid;
+
+}
+
+.bluebox {
+    height: 300px;
+    width: 200px;
+    background-color: lightblue;
+    border-width: 1px;
+	border-color: black;
+    border: solid;
+
+}
