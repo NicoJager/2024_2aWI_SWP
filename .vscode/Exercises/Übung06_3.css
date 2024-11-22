@@ -47,8 +47,18 @@
     height: 300px;
     width: 200px;
     background-color: lightblue;
-    border-width: 1px;
+    border-color: black;
+    border: solid;
+    
+   
+
+}
+
+.orangebox1 {
+    height: 100px;
+    width: 403px;
+    background-color: orange; border-width: 1px;
 	border-color: black;
     border: solid;
-
+    margin-left: 20px;
 }
