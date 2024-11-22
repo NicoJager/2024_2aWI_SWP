@@ -44,6 +44,7 @@
 }
 
 .bluebox {
+    position: relative;
     height: 300px;
     width: 200px;
     background-color: lightblue;
@@ -61,4 +62,14 @@
 	border-color: black;
     border: solid;
     margin-left: 20px;
+}
+
+
+.blackbox {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: black;
+    right: 0;
+    top: 0;
 }
