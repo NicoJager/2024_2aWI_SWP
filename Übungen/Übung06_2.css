@@ -41,9 +41,16 @@
 	border-width: 1px;
 	background-color: white;
 	margin-top: 50px;
+	margin-left: 40px; 
+	margin-right: 40px;
 	
 }
 
+
+.invisibleboxmargin {
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
 .greenbox {
 	position: relative;
@@ -61,8 +68,10 @@
 	height: 100px;
 	position: relative;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
+	margin-left: 40px;
+	margin-right: 40px;
 
 	
 }
