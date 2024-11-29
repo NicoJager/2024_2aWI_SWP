@@ -1,5 +1,24 @@
-.bigbox1 {
-    background-color: rebeccapurple;
-    width: 100px;
-    height: 100%;
+.bigbox {
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    width: 100%;
+    height: 540px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 1px;
+    row-gap: 1px;
+
+
+}
+
+.box {
+    background-color: red;
+    padding: 5px;
+    height: 100px;
+}
+
+.bigboxpadding {
+    padding: 100px;
 }
