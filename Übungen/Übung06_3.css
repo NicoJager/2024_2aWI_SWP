@@ -1,5 +1,5 @@
 .greybox {
-    background-color:lightgray;
+    background-color: lightgray;
     width: 250px;
     height: 250px;
     position: absolute;
@@ -20,48 +20,55 @@
     background-color: orange;
     position: absolute;
     border-width: 1px;
-	border-color: black;
+    border-color: black;
     border: solid;
 
 }
 
 
 .boxes {
+    box-sizing: border-box;
     margin-left: 20px;
     margin-top: 20px;
-    display: flex;    
+    display: flex;
     flex-direction: row;
 }
 
 .greenbox {
+    box-sizing: border-box;
     height: 300px;
     width: 200px;
     background-color: lightgreen;
-    border-width: 1px;
-	border-color: black;
+    border-color: black;
     border: solid;
+    border-width: 1px;
+
 
 }
 
 .bluebox {
+    box-sizing: border-box;
     position: relative;
     height: 300px;
     width: 200px;
     background-color: lightblue;
     border-color: black;
     border: solid;
-    
-   
+    border-width: 1px;
+
+
 
 }
 
 .orangebox1 {
+    box-sizing: border-box;
     height: 100px;
-    width: 403px;
-    background-color: orange; border-width: 1px;
-	border-color: black;
+    width: 400px;
+    background-color: orange;
+    border-color: black;
     border: solid;
     margin-left: 20px;
+    border-width: 1px;
 }
 
 

@@ -1,4 +1,3 @@
-
 .head {
     background-color: cyan;
     border: solid;
@@ -38,16 +37,14 @@
     border-width: 1px;
     display: flex;
     flex-direction: row;
-    
-    
+
+
 
 }
 
-.innerbox{
+.innerbox {
     background-color: black;
     height: 30px;
     width: 30px;
-    margin: 10px;    
+    margin: 10px;
 }
-
-

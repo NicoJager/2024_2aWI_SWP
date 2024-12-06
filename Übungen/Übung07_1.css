@@ -11,13 +11,25 @@
 
 }
 
-.box {
+.box1 {
     background-color: red;
     padding: 20px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+}
+
+.box2 {
+    background-color: red;
+    padding: 20px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -34,7 +46,6 @@
     column-gap: 25px;
     row-gap: 20px;
     justify-content: space-between;
-    align-items: center;
     border-width: 1px;
     border-color: black;
     border: solid;
@@ -46,16 +57,16 @@
 
 
 .rightsite {
-    position: relative;
+
     width: 150%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 25px;
+    row-gap: 20px;
     border-width: 1px;
     border-color: black;
     border: solid;
-
-}
-
-
-
-.item2 {
-    grid-column-start: span 1;
+    justify-content: space-around;
+    align-items: center;
 }
