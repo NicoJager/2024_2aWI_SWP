@@ -12,23 +12,29 @@
 }
 
 .box1 {
-    background-color: red;
+    background-color: lightgreen;
     padding: 20px;
-    height: 100px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
 
 
 }
 
 .box2 {
-    background-color: red;
+    background-color: lightgreen;
     padding: 20px;
     height: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
 
 
 }
@@ -41,8 +47,7 @@
 .leftsite {
     width: 150%;
     display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: 15% 15% 15%;
     column-gap: 25px;
     row-gap: 20px;
     justify-content: space-between;
@@ -50,6 +55,7 @@
     border-color: black;
     border: solid;
     padding: 20px;
+    grid-template-rows: 115px 115px;
 
 
 }
