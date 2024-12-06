@@ -67,7 +67,6 @@
     width: 150%;
     display: grid;
     grid-template-columns: 40% 40%;
-    grid-auto-rows: minmax(100px, auto);
     column-gap: 25px;
     row-gap: 20px;
     border-width: 1px;
