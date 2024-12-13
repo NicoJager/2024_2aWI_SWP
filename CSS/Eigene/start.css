@@ -1,0 +1,72 @@
+/*"https://i.ibb.co/yy5N281/image.png"*/
+
+
+.headshadow {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 310px;
+    padding-right: 200px;
+    padding-top: 26px;
+    padding-bottom: 22px;
+    height: 30;
+}
+
+
+
+.logo img {
+    position: absolute;
+    max-height: 45px;
+    width: auto;
+    top: 38px;
+    left: 100px;
+}
+
+.logoleft img {
+    position: absolute;
+    max-height: 80px;
+    width: auto;
+    top: 10px;
+    left: 10px;
+}
+
+
+.contactlist {
+    padding-left: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    font-weight: 1px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: grey;
+
+}
+
+
+.barcontainer {
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+.bar {
+    height: 0.5px;
+    background-color: lightgray;
+    width: 100%;
+}
+
+.upload {
+    background-color: bl;
+}
