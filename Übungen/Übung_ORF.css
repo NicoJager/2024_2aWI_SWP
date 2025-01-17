@@ -24,6 +24,17 @@ body {
     display: flex;
     align-items: center;
     padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.burger img {
+    height: 1px;
+    width: auto;
+    margin-right: 2rem;
+
 }
 
 .redbar {
@@ -36,11 +47,7 @@ body {
     height: 4px;
 }
 
-.logo img {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
+.logo img {}
 
 .logo {
     display: flex;
@@ -433,16 +440,8 @@ body {
 
 
     .headerbar {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        height: 26px;
-        background-color: darkred;
-        color: white;
-        font-family: arial, sans-serif;
-        font-weight: normal;
-        font-size: 0.6rem;
+
+        display: none;
 
     }
 
@@ -458,10 +457,7 @@ body {
         justify-content: space-around;
         align-items: center;
         flex-direction: row;
-        color: white;
-        font-family: arial, sans-serif;
-        font-weight: lighter;
-        font-size: 0.6rem;
+        font-size: 0px;
 
     }
 
@@ -521,7 +517,12 @@ body {
     }
 
 
+    .burger img {
+        height: 40px;
+        width: auto;
+        margin-right: 2rem;
 
+    }
 
 
 }
