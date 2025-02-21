@@ -15,7 +15,7 @@
 let a = 7;
 let b = 3;
 
-let sum = a + b;
+let summe = a + b;
 
 let difference = a - b;
 
@@ -69,3 +69,32 @@ for (let i = 0; i < 10; i++) {
     console.log("Durchlauf: " + i)
 }
 
+//functions
+function sum(n1, n2) {
+    return n1 + n2
+}
+
+let n1 = 5;
+let n2 = 10;
+
+let resultSum = n1 * n2;
+
+resultSum = sum(5, 10)
+
+function linearstraight(x) {
+    return 10 * x + 5
+}
+
+sum(10, 15);
+
+function log(text, repeat) {
+    for (let i = 1; i < repeat; i++)
+        console.log(i + ": ");
+    console.log(text);
+
+}
+
+
+
+log("HALLLLOOOOO", 20);
+log("hallo", 3);
