@@ -98,3 +98,44 @@ function log(text, repeat) {
 
 log("HALLLLOOOOO", 20);
 log("hallo", 3);
+
+const MAX = 100
+const sumfuncvar = function (a, b) {
+    return a + b
+}
+
+
+
+sumfuncvar(10, 20)
+
+
+// ARRRARARRYAYYYS
+
+let numbers = [1, 2, 3, 4, 5] // array of numbers
+
+
+console.log("inedx 0: ", numbers[0]) // 1
+console.log("inedx 1: ", numbers[1]) // 2
+console.log("inedx 2: ", numbers[2]) // 3
+console.log("inedx 3: ", numbers[3]) // 4
+console.log("inedx 4: ", numbers[4]) // 5
+
+let text = "Hello WORLD"
+console.log("inedx 0: ", numbers[0]) // H
+console.log("inedx 1: ", numbers[1]) // e
+console.log("inedx 2: ", numbers[2]) // l
+console.log("inedx 3: ", numbers[3]) // l
+console.log("inedx 4: ", numbers[4]) // o
+
+console.log("for loop over an array")
+for (let i = 0; 1 < numbers.length; i++) {
+    console.log("inedx" + i + ": " + numbers[i])
+}
+
+const printNumber = (n) => {
+    console.log(n)
+
+}
+
+numbers.forEach(printNumber)
+text.forEach(printNumber)
