@@ -139,3 +139,12 @@ const printNumber = (n) => {
 
 numbers.forEach(printNumber)
 text.forEach(printNumber)
+
+
+function onClick() {
+    console.log("button clicker")
+}
+
+function click(onClick) {
+    onClick();
+}
